@@ -7,7 +7,6 @@ class App extends Component {
     names: []
   };
   removeName = (clickedIndex) => {
-    // to learn how the .filter method works, check out https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
     var filterCallback = (_, index) => index !== clickedIndex;
     var newNames = this.state.names.filter(filterCallback);
     this.setState({ names: newNames });

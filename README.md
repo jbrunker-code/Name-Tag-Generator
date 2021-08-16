@@ -1,6 +1,6 @@
 This React app allows users to create and delete name tags. State is used to save the current assortment of name tags between browsing sessions
 
-Live version: https://codesandbox.io/s/zen-shadow-tr8k2?file=/README.md
+Live version: https://tr8k2.csb.app/
 
 Technology Used
 
